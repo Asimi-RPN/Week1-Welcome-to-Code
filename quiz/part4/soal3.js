@@ -13,6 +13,6 @@ let address = "Jln. Malioboro, Yogjakarta";
 let hobby = "gaming";
 
 let fullSentence = processSentence(personName, age, address, hobby);
-console.log(fullSentence);
 
 // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
+console.log(fullSentence);
