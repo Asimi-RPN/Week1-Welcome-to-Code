@@ -27,9 +27,11 @@ peran = args[1];
 
 if (nama === "") {
     console.log("nama wajib diisi");
+    process.exit(1);
 }
 if (peran === "") {
     console.log("Pilih Peranmu untuk memulai game");
+    process.exit(1);
 }
 
 if (
