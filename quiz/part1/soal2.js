@@ -58,11 +58,8 @@ switch (bulan) {
     default:
         monthName = false;
         console.log('Format bulan harus angka 1 - 12');
+        process.exit(1);
         break;
-}
-
-if (monthName === false) {
-    process.exit(1);
 }
 
 let isValidDate = tanggal >= 1 && tanggal <= 31;
